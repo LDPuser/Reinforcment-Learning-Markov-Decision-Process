@@ -10,7 +10,7 @@ The goal was to design and implement the **Value Iteration** algorithm to comput
 ### 1.1 Snake & Ladder
 The game is composed of 15 squares, with a branching point at square 3 leading to a **slow lane** or a **fast lane**.  The objective is to reach square 15 while choosing dice strategically to minimize the expected number of turns.
 
-![Board layout](assets\snakes_and_ladder.png)
+![Snales and Ladder Board layout](assets/snakes_and_ladder.png)
 
 Each dice available offers different risk and movement properties: a safe die (moves 0–1 step, immune to traps and bonuses), a normal die (moves 0–2 steps, 50% chance of triggering traps/bonuses), and a risky die (moves 0–3 steps, traps/bonuses always triggered).
 
